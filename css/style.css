@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.row{
+    margin: 0 !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.z-index {
+    z-index: 996;
+    position: relative;
+}
+
+.bg-img {
+    background-image: url('../img/photo-1490129375591-2658b3e2ee50.avif');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bg-img::after {
+    top: 0;
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 100%;
+    width: 100%;
+}
+
+.contain {
+    text-align: center;
+}
+
+.img-padding{
+    padding: 96px;
+}
+
+.contain h1 {
+    font-family: "Playfair Display", serif;
+}
+
+.contain button {
+    background-color: #92400f;
+    border: none;
+}
+
+.btn input {
+    background-color: rgba(146, 64, 14, 0.9);
+}
+
+.bg-color {
+    background-color: #f3f4f6;
+}
+
+.bg-color h2 {
+    font-family: "Playfair Display", serif;
+}
+
+.bg-color h2::before {
+    content: '';
+    background-color: #92400f;
+    display: block;
+    width: 100px;
+    height: 10px;
+    margin-bottom: 18px;
+}
+
+.btn1 {
+    border: 3px solid #92400f;
+    color: #92400f;
+    transition: 0.8s;
+}
+
+.btn1:hover {
+    background-color: #92400f;
+    color: white;
+}
+
+.img-co img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.con-tra h1 {
+    font-family: "Playfair Display", serif;
+    position: relative;
+}
+
+.con-tra h1::before {
+    content: '';
+    background-color: #92400f;
+    display: block;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    bottom: 55px;
+}
+
+.p-t-b {
+    padding: 128px 0px;
+}
+
+.loc-img {
+    position: relative;
+}
+
+.loc-img::after {
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.494);
+    content: '';
+    height: 100%;
+    width: 100%;
+}
+
+.find-img{
+    background-image: url('../img/photo-1503516459261-40c66117780a.avif');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.find-con{
+    text-align: center;
+}
+
+.find-con h1{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+}
+
+.find-con button{
+    background-color: #92400f;
+    border: none;
+}
+
+.foot-bg-color{
+    background-color: rgb(117, 117, 117);
+}
+
+
+/* /////////////////////////////////////////////////////// about us //////////////////////////////////////////////////////// */
+
+.header-bgcolor{
+    background-color: #92400f;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 6rem;
+}
+
+.about-content h1{
+    font-family: "Playfair Display", serif;
+    padding: 48px 24px;
+    margin-top: 48px;
+}
+
+.ab-con p{
+    padding-bottom: 96px;
+}
+
+/* /////////////////////////////////////////////////////// blog //////////////////////////////////////////////////////// */
+
+.card-title{
+    font-family: "Playfair Display", serif;
+}
+
+@media (max-width: 768px){
+    .menu{
+        visibility: hidden;
+    }
+    .re-img{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 425px){
+    .col-6{
+        width: 100%;
+    }
+    .find-con h1{
+        font-size: 1.875rem;
+    }
+    .foot-bg-color{
+        display: flex;
+        text-align: center;
+    }
+    ul{
+        padding: 0px;
+    }
+}
+@media (max-width: 320px){
+    .img-padding{
+        padding: 48px;
+    }
+}
